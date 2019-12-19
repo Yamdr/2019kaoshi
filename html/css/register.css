@@ -1,0 +1,133 @@
+/*	
+ 	作者:张涛
+ 	班级：软件192
+	时间：2019年
+ */
+/*全局css*/
+body{
+	background: url(../img/bg.png);
+}
+/*注册表单位置*/
+.wel{
+    position: absolute;
+    left: 720px;
+    right: 100px;
+	top: 0;
+	bottom: 0;
+}
+.box-2{
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+    top: 25%;
+}
+/*决定注册框升起位置*/
+.le-2{
+    overflow: hidden;
+    height: 480px;
+}
+/*每个输入框间距*/
+.flrg>.a,.flrg-1>.a{
+    padding: 13px;
+}
+/*输入框样式*/
+.flrg>.a>.in-1,.flrg-1>.a>.in-1{
+    outline: none;
+    opacity: 0.6;
+    width: 238px;
+    height: 33px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: black;
+    padding-left: 15px;
+}
+/*注册按钮*/
+#button{
+    width: 91%;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 19px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 19px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 19px rgba(0, 0, 0, .1);
+    background: rgba(6,127,228,0.71);
+    color: antiquewhite;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-align: center;
+    outline: none;
+
+}
+
+/*注册表单总体*/
+.flrg-1{
+    width: 300px;
+    background: url(../img/left.png);
+    text-align: center;
+    padding-bottom: 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    position: absolute;
+    -webkit-animation: myflrg-2 10s;
+    -o-animation: myflrg-2 10s;
+    animation: myflrg-2 6s;
+    overflow: hidden;
+}
+.footer{
+	margin-top: 900px;
+	text-align:center;
+	padding:2em 0 0;
+}
+.footer p{
+	font-size:1.25em;
+	color:black;
+	margin:0;
+}
+/*注册动画*/
+@keyframes myflrg-2 {
+    0%{
+        top: 300%;
+    }
+    100%{
+        top: 0;
+    }
+}
+@-o-keyframes myflrg-2 {
+    0%{
+        top: 300%;
+    }
+    100%{
+        top: 0;
+    }
+}
+@-moz-keyframes myflrg-2 {
+    0%{
+        top: 300%;
+    }
+    100%{
+        top: 0;
+    }
+}
+@-ms-keyframes myflrg-2 {
+    0%{
+        top: 300%;
+    }
+    100%{
+        top: 0;
+    }
+}
+@-webkit-keyframes myflrg-2 {
+    0%{
+        top: 300%;
+    }
+    100%{
+        top: 0;
+    }
+}

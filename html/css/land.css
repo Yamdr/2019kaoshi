@@ -1,0 +1,90 @@
+/*
+ * 作者：张涛
+ * 班级：软件192
+ * 时间：2019年
+ */
+
+@charset "utf-8";
+
+
+/*end reset*/
+body{
+	font-family: "微软雅黑";
+	background: url(../img/bg.png)
+}
+/*-- main --*/
+.main{
+	width: 450px;
+    margin: 8em auto 0;
+    padding: 0em 4em 5em;
+}
+.main h1{
+	color: #7e8fad;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0 0 1.5em;
+}
+.main input[type="text"],.main input[type="password"],.main input[type="email"]{
+	outline: none;
+    border: 1px solid #FFF;
+    background: #fed2ed;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 15px 10px;
+    width: 400px;
+    font-size: 1.3em;
+    color: #7e8fad;
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+}
+.main input[type="password"]{
+	margin:1.5em 0;
+}
+.main input[type="submit"],.main input[type="reset"]{
+	outline:none;
+	border:1px solid #DBA9C8;
+	background:#b47c9f;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	padding:15px 10px;
+	width:210px;
+	color:#fdbfe6;
+	font-size:1.5em;
+	font-family: 'Syncopate', sans-serif;
+	cursor:pointer;
+}
+.main input[type="submit"]:hover{
+	background:#fed2ed;
+	color:#b47c9f;
+	border: 1px solid #FFF;
+}
+.main input[type="reset"]:hover{
+	background:#fed2ed;
+	color:#b47c9f;
+	border: 1px solid #FFF;
+}
+.main input[type="email"]:hover{
+	background:#fed2ed;
+	color:#b47c9f;
+	border: 1px solid #FFF;
+}
+#tupian{
+	width: 200px;
+	height: 100px;
+}
+.footer{
+	margin-top: 100px;
+	text-align:center;
+	padding:2em 0 0;
+}
+.footer p{
+	font-size:1.25em;
+	color:black;
+	margin:0;
+}

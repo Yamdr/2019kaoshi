@@ -1,0 +1,231 @@
+/*
+ * 作者：张涛
+ * 班级：软件192
+ * 时间：2019年
+ */
+
+@charset "utf-8";
+
+/* Global Styles */
+
+a:link {
+	/* 未访问链接 */
+	font-size: 10pt;
+	color:con;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:hover {
+	/* 鼠标指针移动到链接上 */
+	font-size: 19pt;
+	color: antiquewhite;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:active {
+	/* 正在被点击的链接 */
+	font-size: 39pt;
+	color: sandybrown;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+/*全局css参数设置*/
+
+body {
+	background-image:url(../img/bg.png);
+}
+
+
+/*header*/
+
+#daohang {
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* Logo */
+
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 139px;
+	text-align: center;
+}
+/*页眉导航栏超链接*/
+.top {
+	width: 150px;
+	height: 23px;
+	padding-top: 1px;
+}
+#dh_1 {
+ 	width: 700px;
+ 	height: 23px;
+ 	margin: 0;
+	padding: o;
+	list-style: none;
+ }
+#dh_2 {
+ 	float:right;
+ 	margin-right: 15px;
+ 	height: 5px;
+ 	line-height: 203px;
+}
+
+
+/*头部*/
+
+#header {
+	border-radius: 10px;
+	clear: both;
+	height: 30px;
+	width: 1320px;
+	background: url(../img/header.png);
+	padding-left: 1px;
+	padding-top: 31px;
+	padding-bottom: 100px;
+}
+
+/*底部*/
+
+#footer {
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	clear: both;
+	height: 30px;
+	width: 1320px;
+	background: url(../img/footer.png);
+	padding-top: 57px;
+	padding-bottom: 57px;
+}
+
+
+/* 左侧搜索框文字*/
+
+#content {
+	border-radius: 5px;
+	clear: both;
+	overflow: auto;
+	padding-top: 10px;
+}
+
+
+/* 左侧表单样式 */
+
+#content .sidebar {
+	border-radius: 10px;
+	font-family: "微软雅黑";
+	color: rgba(146, 146, 146, 1.00);
+	float: left;
+	width: 250px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	background: url(../img/left.png);
+	padding-top: 36px;
+	height: 784px;
+}
+/*视频样式*/
+#content .shipin{
+	text-align:center;
+	height:135px;
+	width:auto;
+}
+/*右侧文字格式*/
+
+#content .mainContent {
+	float: left;
+	width: 900px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+
+/*自由排版图片*/
+
+img {
+	border-radius: 10px;
+	float: left;
+}
+
+
+/* 左侧一级分类格式 */
+
+#content .sidebar #menubar {
+	text-align: left;
+	color: rgba(146, 146, 146, 1.00);
+	position: relative;
+	left: 0%;
+}
+
+
+/* 左侧搜索框样式 */
+
+#content .sidebar #search {
+	width: 100%;
+	border-radius: 5px;
+	height: 42px;
+	text-align: center;
+	color: darkgray;
+	font-size: 14px;
+	;
+	margin-bottom: 21px;
+}
+
+
+/* 全局大小*/
+
+#mainWrapper {
+	width: 1000pt;
+	padding-left: 185px;
+	padding-right: 185px;
+}
+
+
+/*左侧二级分类符号 */
+
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -35px;
+	padding-top: 12px;
+}
+
+
+/*左侧字体格式及其颜色 */
+
+.sidebar #menubar .menu ul li a {
+	color: rgba(146, 146, 146, 1.00);
+	text-decoration: none;
+}
+
+.sidebar #menubar .menu ul li a:hover {
+	color: rgba(107, 97, 97, 1.00);
+	text-decoration: none;
+}
+
+
+/*左侧分类题目字体大小 */
+
+#menubar .menu h2 {
+	font-size: 14px;
+}
+
+
+/*左侧字体a字体大小 */
+
+#menubar .menu ul li a {
+	font-size: 11px;
+}
+#donghua{
+  color: inherit;
+  display: block;
+  transition: transform .5s cubic-bezier(0,.8,.5,2);
+}
